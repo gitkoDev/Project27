@@ -13,6 +13,8 @@
 		9232F19D28D9F83400C83A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9232F19B28D9F83400C83A45 /* Main.storyboard */; };
 		9232F19F28D9F83500C83A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9232F19E28D9F83500C83A45 /* Assets.xcassets */; };
 		9232F1A228D9F83500C83A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9232F1A028D9F83500C83A45 /* LaunchScreen.storyboard */; };
+		9233C38C28DFF0E200E11CDB /* mouse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9233C38A28DFF0E200E11CDB /* mouse@2x.png */; };
+		9233C38D28DFF0E200E11CDB /* mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 9233C38B28DFF0E200E11CDB /* mouse.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9232F19E28D9F83500C83A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9232F1A128D9F83500C83A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9232F1A328D9F83500C83A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9233C38A28DFF0E200E11CDB /* mouse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mouse@2x.png"; sourceTree = "<group>"; };
+		9233C38B28DFF0E200E11CDB /* mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouse.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9232F19E28D9F83500C83A45 /* Assets.xcassets */,
 				9232F1A028D9F83500C83A45 /* LaunchScreen.storyboard */,
 				9232F1A328D9F83500C83A45 /* Info.plist */,
+				9233C38B28DFF0E200E11CDB /* mouse.png */,
+				9233C38A28DFF0E200E11CDB /* mouse@2x.png */,
 			);
 			path = Project27;
 			sourceTree = "<group>";
@@ -126,7 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9232F1A228D9F83500C83A45 /* LaunchScreen.storyboard in Resources */,
+				9233C38D28DFF0E200E11CDB /* mouse.png in Resources */,
 				9232F19F28D9F83500C83A45 /* Assets.xcassets in Resources */,
+				9233C38C28DFF0E200E11CDB /* mouse@2x.png in Resources */,
 				9232F19D28D9F83400C83A45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,9 +310,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = gitkoDev.Project27;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -330,9 +341,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = gitkoDev.Project27;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
